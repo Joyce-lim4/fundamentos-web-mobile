@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT Money</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="roboto-regular">
+    <header id="cabecalho">
+        <div>
+            <img src="assets/logo.svg" alt="Logo">
+            <span>DT Money</span>
+        </div>
+        
+        <button class="button-md roboto-negrito"> Nova Transação </button>
+    </header>
+
+    <main class="container">
+        <section id="dashboard">
+            <div class="card">
+                <h3>
+                    <span>Entradas </span>
+                    <img src="./assets/entrada.svg" alt="Imagem de entradas" />
+                </h3>
+                <p>R$ 17.123,00</p>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Saídas</span>
+                    <img src="./assets/saida.svg" alt="Imagem de saídas" />
+                </h3>
+                <p>R$ 123,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>
+                    <span>Total </span>
+                    <img src="./assets/total.svg" alt="Imagem de total" />
+                </h3>
+                <p>R$ 17.000,00</p>
+            </div>
+
+        </section>
+
+        <section class="search">
+            <input type="text" placeholder="Buscar transações..." \>
+            <button><img src="./assets/lupa.svg" alt="">Buscar</button>
+        </section>
+
+        <section id="transaction">
+            <table id="data-table">            
+                <tbody>                  
+                    <tr>
+                        <td>Desenvolvimento de site</td>
+                        <td>R$ 12.000,00</td>
+                        <td>Venda</td>
+                        <td>13/04/2022</td>
+                    </tr>
+      
+                    <tr>
+                        <td>Desenvolvimento de site</td>
+                        <td>R$ 12.000,00</td>
+                        <td>Venda</td>
+                        <td>13/04/2022</td>
+                    </tr>
+      
+                    <tr>
+                        <td>Desenvolvimento de site</td>
+                        <td>R$ 12.000,00</td>
+                        <td>Venda</td>
+                        <td>13/04/2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+    </main>
+    
+</body>
+
+</html>
